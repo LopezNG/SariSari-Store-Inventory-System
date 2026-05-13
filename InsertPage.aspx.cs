@@ -1,0 +1,312 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace SariSari_InventorySystem
+{
+    public partial class InsertPage : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                tableName.SelectedIndexChanged += TableName_SelectedIndexChanged;
+                // Load the supplier IDs into the dropdown list on page load
+                LoadSupplierIDs(ddlSupplierID);
+                LoadSupplierIDs(ddlSupplierIDTransfer);
+                LoadCategories();
+            }
+        }
+
+        protected void TableName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (tableName.SelectedValue)
+            {
+                // Apply condition based on the user selected value
+                case "Supplier":
+                    supplierPanel.Visible = true;
+                    productPanel.Visible = false;
+                    transferPanel.Visible = false;
+                    break;
+                case "Product":
+                    productPanel.Visible = true;
+                    supplierPanel.Visible = false;
+                    transferPanel.Visible = false;
+                    break;
+                case "Transfer":
+                    transferPanel.Visible = true;
+                    productPanel.Visible = false;
+                    supplierPanel.Visible = false;
+                    break;
+                default:
+                    productPanel.Visible = false;
+                    supplierPanel.Visible = false;
+                    transferPanel.Visible = false;
+                    break;
+            }
+        }
+
+        private void LoadSupplierIDs(DropDownList ddl)
+        {
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
+            string query = "SELECT supplier_id FROM SUPPLIER";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+
+                    // Clear existing items if any
+                    ddl.Items.Clear();
+
+                    // Add each supplier ID to the dropdown list
+                    while (reader.Read())
+                    {
+                        string supplierID = reader["supplier_id"].ToString();
+                        ddl.Items.Add(new ListItem(supplierID));
+                    }
+
+                    // Add a default item (optional)
+                    ddl.Items.Insert(0, new ListItem("Select Supplier ID", ""));
+                }
+            }
+        }
+
+        private void LoadCategories()
+        {
+            ddlCategoryName.Items.Clear(); // Clear existing items
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
+            string query = "SELECT category_name FROM CATEGORY";
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        connection.Open();
+                        SqlDataReader reader = command.ExecuteReader();
+
+                        // Add each category name to the dropdown list if available
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                string category = reader["category_name"].ToString();
+                                ddlCategoryName.Items.Add(new ListItem(category));
+                            }
+                        }
+                        else
+                        {
+                            ddlCategoryName.Items.Add(new ListItem("No Categories Available"));
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exception if there's an error loading categories
+                Response.Write($"Error loading categories: {ex.Message}");
+            }
+        }
+
+
+        //FOR PRODUCT DATABASE
+        protected void ProductAddButton_Click(object sender, EventArgs e)
+        {
+            string product = txtProductName.Text;
+            int productId = Convert.ToInt32(txtProductID.Text);
+            int supplierId = Convert.ToInt32(ddlSupplierID.SelectedValue); // Get the selected value from dropdown list
+            int quantity = Convert.ToInt32(txtQuantity.Text);
+            string description = txtDescription.Text;
+            double price = Convert.ToDouble(txtProdPrice.Text);
+            string category = ddlCategoryName.Text;
+
+            try
+            {
+                InsertProductIntoDatabase(productId, supplierId, product, price, quantity, description, category);
+
+                // Display success message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Product {product} added successfully.');", true);
+
+                // Clear input fields
+                ClearProductFields();
+            }
+            catch (Exception)
+            {
+                // Display error message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: Product ID already exists. Please enter a different ID.');", true);
+            }
+        }
+
+        private void ClearProductFields()
+        {
+            // Clear all input fields related to adding a product
+            txtProductName.Text = "";
+            txtProductID.Text = "";
+            ddlSupplierID.SelectedIndex = 0; // Select the default item in the dropdown list
+            txtQuantity.Text = "";
+            txtDescription.Text = "";
+            txtProdPrice.Text = "";
+            ddlCategoryName.SelectedIndex = 0; // Select the default item in the dropdown list
+        }
+
+        private void InsertProductIntoDatabase(int productId, int supplierId, string productName, double price, int quantity, string description, string category)
+        {
+            // Connection string
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
+
+            // SQL query to insert values into the PRODUCT table
+            string query = "INSERT INTO PRODUCT (product_id, supplier_id, prod_name, prod_price, prod_quantity, description, category_name) " +
+                           "VALUES (@ProductId, @SupplierId, @ProductName, @Price, @Quantity, @Description, @Category)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Add parameters to the query to prevent SQL injection
+                    command.Parameters.AddWithValue("@ProductId", productId);
+                    command.Parameters.AddWithValue("@SupplierId", supplierId);
+                    command.Parameters.AddWithValue("@ProductName", productName);
+                    command.Parameters.AddWithValue("@Price", price);
+                    command.Parameters.AddWithValue("@Quantity", quantity);
+                    command.Parameters.AddWithValue("@Description", description);
+                    command.Parameters.AddWithValue("@Category", category);
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        //FOR SUPPLIER DATABASE
+        protected void SupplierAddButton_Click(object sender, EventArgs e)
+        {
+            int supplierID = Convert.ToInt32(txtSupplier.Text);
+            string supplierName = txtSupplierName.Text;
+            string address = txtAddress.Text;
+            string contactNo = txtContactNo.Text;
+
+            try
+            {
+
+                InsertSupplierIntoDatabase(supplierID, supplierName, address, contactNo);
+
+                // Display success message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Supplier {supplierName} added successfully.');", true);
+
+                // Clear input fields
+                ClearSupplierFields();
+            }
+            catch (Exception)
+            {
+                // Display error message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: Supplier ID already exists. Please enter a different ID.');", true);
+            }
+        }
+
+        private void ClearSupplierFields()
+        {
+            // Clear all input fields related to adding a supplier
+            txtSupplier.Text = "";
+            txtSupplierName.Text = "";
+            txtAddress.Text = "";
+            txtContactNo.Text = "";
+        }
+
+        private void InsertSupplierIntoDatabase(int supplierID, string supplierName, string address, string contactNo)
+        {
+            // Connection string
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
+
+            // SQL query to insert values into the SUPPLIER table
+            string query = "INSERT INTO SUPPLIER (supplier_id, supp_name, supp_address, supp_contact) " +
+                           "VALUES (@SupplierID, @SupplierName, @Address, @ContactNo)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Add parameters to the query to prevent SQL injection
+                    command.Parameters.AddWithValue("@SupplierID", supplierID);
+                    command.Parameters.AddWithValue("@SupplierName", supplierName);
+                    command.Parameters.AddWithValue("@Address", address);
+                    command.Parameters.AddWithValue("@ContactNo", contactNo);
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        //FOR TRANSFER DATABASE
+        protected void TransferAddButton_Click(object sender, EventArgs e)
+        {
+            int deliveryId = Convert.ToInt32(txtDeliveryID.Text);
+            DateTime dateSent = Convert.ToDateTime(txtDateSent.Text);
+            DateTime dateReceived = Convert.ToDateTime(txtDateReceived.Text);
+            string transportationMode = TransportationMode.SelectedValue;
+            int supplierId = Convert.ToInt32(ddlSupplierIDTransfer.SelectedValue);
+
+            try
+            {
+                InsertTransferRecordIntoDatabase(deliveryId, dateSent, dateReceived, transportationMode, supplierId);
+
+                // Display success message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Transfer Record added successfully.');", true);
+
+                // Clear input fields
+                ClearTransferFields();
+            }
+            catch (Exception ex)
+            {
+                // Display error message
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", $"alert('Error: Delivery ID already exists. Please enter a different ID.');", true);
+            }
+        }
+
+        private void ClearTransferFields()
+        {
+            // Clear all input fields related to adding a transfer record
+            txtDeliveryID.Text = "";
+            txtDateSent.Text = "";
+            txtDateReceived.Text = "";
+            TransportationMode.SelectedIndex = 0; // Select the default item in the dropdown list
+            ddlSupplierIDTransfer.SelectedIndex = 0; // Select the default item in the dropdown list
+        }
+
+        private void InsertTransferRecordIntoDatabase(int deliveryId, DateTime dateSent, DateTime dateReceived, string transportationMode, int supplierId)
+        {
+            // Connection string
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
+
+            // SQL query to insert values into the TRANSFER table
+            string query = "INSERT INTO TRANSFER (delivery_id, sent_date, receive_date, transportation_mode, supplier_id) " +
+                           "VALUES (@DeliveryId, @DateSent, @DateReceived, @TransportationMode, @SupplierId)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    // Add parameters to the query to prevent SQL injection
+                    command.Parameters.AddWithValue("@DeliveryId", deliveryId);
+                    command.Parameters.AddWithValue("@DateSent", dateSent);
+                    command.Parameters.AddWithValue("@DateReceived", dateReceived);
+                    command.Parameters.AddWithValue("@TransportationMode", transportationMode);
+                    command.Parameters.AddWithValue("@SupplierId", supplierId);
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+    }
+}

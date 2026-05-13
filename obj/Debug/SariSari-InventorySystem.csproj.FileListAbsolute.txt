@@ -1,0 +1,413 @@
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll.config
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.pdb
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csc.exe
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csc.exe.config
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csc.rsp
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csi.exe
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csi.exe.config
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\csi.rsp
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.AppContext.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Collections.Immutable.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Console.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Net.Http.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Net.Sockets.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.ValueTuple.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.exe
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.exe.config
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.rsp
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe.config
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CopyComplete
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.pdb
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\SariSari-InventorySystem.pdb
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csc.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csc.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csc.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csi.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csi.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\csi.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.AppContext.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Collections.Immutable.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Console.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Net.Http.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Net.Sockets.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.ValueTuple.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\vbc.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CopyComplete
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.pdb
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\SariSari-InventorySystem.pdb
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csc.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csc.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csc.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csi.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csi.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\csi.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.AppContext.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Console.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Net.Http.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\vbc.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\vbc.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\vbc.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\obj\Debug\SariSari.95FFADA9.Up2Date
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.pdb
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.dll.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.pdb
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.AppContext.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Console.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Net.Http.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.rsp
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari.95FFADA9.Up2Date
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.dll
+C:\Users\Nitro\Downloads\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.pdb
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.dll.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\SariSari-InventorySystem.pdb
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csc.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\csi.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.AppContext.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Collections.Immutable.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Console.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Globalization.Calendars.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.Compression.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.FileSystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Net.Http.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Net.Sockets.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Reflection.Metadata.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.ValueTuple.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XPath.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\vbc.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\VBCSCompiler.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\roslyn\VBCSCompiler.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.csproj.CopyComplete
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem-WithValidations\obj\Debug\SariSari-InventorySystem.pdb
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\SariSari-InventorySystem.pdb
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csc.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csc.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csc.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csi.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csi.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\csi.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.AppContext.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Collections.Immutable.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Console.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Net.Http.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Net.Sockets.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.ValueTuple.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\vbc.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\vbc.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\vbc.rsp
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe.config
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CopyComplete
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.dll
+D:\C# Visual Studio Codes\CS107L\new\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.pdb
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\SariSari-InventorySystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\SariSari-InventorySystem.pdb
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csc.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csc.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csc.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csi.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csi.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\csi.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.Managed.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.AppContext.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Collections.Immutable.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Console.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Globalization.Calendars.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Net.Http.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Net.Sockets.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.ValueTuple.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\vbc.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\vbc.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\vbc.rsp
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\roslyn\VBCSCompiler.exe.config
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.AssemblyReference.cache
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CoreCompileInputs.cache
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.csproj.CopyComplete
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.dll
+D:\COLLEGE\2ND YEAR SCHOOL\CS107L\MP FINAL\SariSari-InventorySystem\obj\Debug\SariSari-InventorySystem.pdb
