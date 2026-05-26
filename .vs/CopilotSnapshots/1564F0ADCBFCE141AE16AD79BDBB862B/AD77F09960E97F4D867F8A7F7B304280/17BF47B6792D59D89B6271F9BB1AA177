@@ -135,32 +135,12 @@ namespace SariSari_InventorySystem
         protected void ProductAddButton_Click(object sender, EventArgs e)
         {
             string product = txtProductName.Text;
+            int productId = Convert.ToInt32(txtProductID.Text);
+            int supplierId = Convert.ToInt32(ddlSupplierID.SelectedValue); // Get the selected value from dropdown list
+            int quantity = Convert.ToInt32(txtQuantity.Text);
             string description = txtDescription.Text;
+            double price = Convert.ToDouble(txtProdPrice.Text);
             string category = ddlCategoryName.Text;
-
-            if (!int.TryParse(txtProductID.Text, out int productId))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid Product ID.');", true);
-                return;
-            }
-
-            if (!int.TryParse(ddlSupplierID.SelectedValue, out int supplierId))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Please select a Supplier ID.');", true);
-                return;
-            }
-
-            if (!int.TryParse(txtQuantity.Text, out int quantity))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid quantity.');", true);
-                return;
-            }
-
-            if (!double.TryParse(txtProdPrice.Text, out double price))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid price.');", true);
-                return;
-            }
 
             try
             {
@@ -226,12 +206,7 @@ namespace SariSari_InventorySystem
         //FOR SUPPLIER DATABASE
         protected void SupplierAddButton_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(txtSupplier.Text, out int supplierID))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid Supplier ID.');", true);
-                return;
-            }
-
+            int supplierID = Convert.ToInt32(txtSupplier.Text);
             string supplierName = txtSupplierName.Text;
             string address = txtAddress.Text;
             string contactNo = txtContactNo.Text;
@@ -295,31 +270,11 @@ namespace SariSari_InventorySystem
         //FOR TRANSFER DATABASE
         protected void TransferAddButton_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(txtDeliveryID.Text, out int deliveryId))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid Delivery ID.');", true);
-                return;
-            }
-
-            if (!DateTime.TryParse(txtDateSent.Text, out DateTime dateSent))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid sent date.');", true);
-                return;
-            }
-
-            if (!DateTime.TryParse(txtDateReceived.Text, out DateTime dateReceived))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Invalid receive date.');", true);
-                return;
-            }
-
+            int deliveryId = Convert.ToInt32(txtDeliveryID.Text);
+            DateTime dateSent = Convert.ToDateTime(txtDateSent.Text);
+            DateTime dateReceived = Convert.ToDateTime(txtDateReceived.Text);
             string transportationMode = TransportationMode.SelectedValue;
-
-            if (!int.TryParse(ddlSupplierIDTransfer.SelectedValue, out int supplierId))
-            {
-                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Please select a Supplier ID.');", true);
-                return;
-            }
+            int supplierId = Convert.ToInt32(ddlSupplierIDTransfer.SelectedValue);
 
             try
             {

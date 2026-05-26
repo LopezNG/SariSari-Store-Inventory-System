@@ -64,7 +64,8 @@ namespace SariSari_InventorySystem
         }
         protected void ddlProductId_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (int.TryParse(ddlProductId.SelectedValue, out int productId))
+            int productId;
+            if (int.TryParse(ddlProductId.SelectedValue, out productId))
             {
                 LoadProductDetails(productId);
             }
@@ -112,7 +113,8 @@ namespace SariSari_InventorySystem
 
         protected void DeleteRecordButton_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(ddlProductId.SelectedValue, out int productId))
+            int productId;
+            if (int.TryParse(ddlProductId.SelectedValue, out productId))
             {
                 DeleteProductFromDatabase(productId);
             }
