@@ -33,6 +33,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\ViewPage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewPage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\SariSari-InventorySystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SariSari-InventorySystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SariSari-InventorySystem.csproj",
+              "DocumentMoniker": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\SariSari-InventorySystem.csproj",
+              "RelativeDocumentMoniker": "SariSari-InventorySystem.csproj",
+              "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\SariSari-InventorySystem.csproj",
+              "RelativeToolTip": "SariSari-InventorySystem.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-26T06:57:31.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-26T06:57:22.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,8 +92,7 @@
               "RelativeToolTip": "ViewPage.aspx.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T06:46:49.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T06:46:49.963Z"
             },
             {
               "$type": "Document",
@@ -71,8 +104,7 @@
               "RelativeToolTip": "UpdatePage.aspx.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T06:46:49.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T06:46:49.784Z"
             },
             {
               "$type": "Document",
@@ -82,7 +114,7 @@
               "RelativeDocumentMoniker": "DeletePage.aspx.cs",
               "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\DeletePage.aspx.cs",
               "RelativeToolTip": "DeletePage.aspx.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T06:46:49.581Z",
               "EditorCaption": ""
@@ -95,7 +127,7 @@
               "RelativeDocumentMoniker": "InsertPage.aspx.cs",
               "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\InsertPage.aspx.cs",
               "RelativeToolTip": "InsertPage.aspx.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T06:46:32.189Z",
               "EditorCaption": ""
@@ -110,8 +142,7 @@
               "RelativeToolTip": "Home.aspx.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T06:46:31.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T06:46:31.681Z"
             },
             {
               "$type": "Document",
@@ -123,8 +154,7 @@
               "RelativeToolTip": "Default.aspx.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T06:46:29.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T06:46:29.681Z"
             },
             {
               "$type": "Document",
@@ -134,7 +164,7 @@
               "RelativeDocumentMoniker": "Web.config",
               "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\Web.config",
               "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-05-26T06:46:08.085Z",
               "EditorCaption": ""
@@ -147,7 +177,7 @@
               "RelativeDocumentMoniker": ".github\\copilot-instructions.md",
               "ToolTip": "C:\\Users\\Nitro\\Downloads\\Purple Proj\\SariSari-Store-Inventory-System\\.github\\copilot-instructions.md",
               "RelativeToolTip": ".github\\copilot-instructions.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-05-26T06:42:54.537Z",
               "EditorCaption": ""
