@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -14,20 +13,12 @@ namespace SariSari_InventorySystem
         protected void Page_Load(object sender, EventArgs e)
         {
             // Establish connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // Initialize variables for total inventory value, total inventory items, and total categories
             decimal totalInventoryValue = 0;
             int totalInventoryItems = 0;
             int totalCategories = 0;
-
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                lblInventoryValue.Text = "Empty";
-                lblInventoryItems.Text = "Empty";
-                lblCategories.Text = "Empty";
-                return;
-            }
 
             try
             {

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.Data.SqlClient;
 
 namespace SariSari_InventorySystem
@@ -30,11 +29,7 @@ namespace SariSari_InventorySystem
         // Bind inventory method
         private void BindInventory(string sortBy)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = @"SELECT p.product_id, p.prod_name, p.prod_price, p.prod_quantity, p.description, c.category_name, s.supp_name 
                      FROM PRODUCT p
                      LEFT JOIN CATEGORY c ON p.category_name = c.category_name
@@ -91,11 +86,7 @@ namespace SariSari_InventorySystem
         // Bind transfer method
         private void BindTransfers(string sortBy)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = @"SELECT t.delivery_id, s.supp_name, t.sent_date, t.receive_date, t.transportation_mode 
                      FROM TRANSFER t
                      LEFT JOIN SUPPLIER s ON t.supplier_id = s.supplier_id

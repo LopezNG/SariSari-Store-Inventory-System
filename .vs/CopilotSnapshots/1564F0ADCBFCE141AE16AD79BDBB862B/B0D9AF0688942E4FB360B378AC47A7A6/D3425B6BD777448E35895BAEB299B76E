@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
@@ -55,13 +54,7 @@ namespace SariSari_InventorySystem
 
         private void LoadSupplierIDs(DropDownList ddl)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                ddl.Items.Clear();
-                ddl.Items.Insert(0, new ListItem("Configuration missing", ""));
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT supplier_id FROM SUPPLIER";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -90,12 +83,7 @@ namespace SariSari_InventorySystem
         private void LoadCategories()
         {
             ddlCategoryName.Items.Clear(); // Clear existing items
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                ddlCategoryName.Items.Add(new ListItem("Configuration missing"));
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT category_name FROM CATEGORY";
 
             try
@@ -174,11 +162,7 @@ namespace SariSari_InventorySystem
         private void InsertProductIntoDatabase(int productId, int supplierId, string productName, double price, int quantity, string description, string category)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to insert values into the PRODUCT table
             string query = "INSERT INTO PRODUCT (product_id, supplier_id, prod_name, prod_price, prod_quantity, description, category_name) " +
@@ -241,11 +225,7 @@ namespace SariSari_InventorySystem
         private void InsertSupplierIntoDatabase(int supplierID, string supplierName, string address, string contactNo)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to insert values into the SUPPLIER table
             string query = "INSERT INTO SUPPLIER (supplier_id, supp_name, supp_address, supp_contact) " +
@@ -306,11 +286,7 @@ namespace SariSari_InventorySystem
         private void InsertTransferRecordIntoDatabase(int deliveryId, DateTime dateSent, DateTime dateReceived, string transportationMode, int supplierId)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to insert values into the TRANSFER table
             string query = "INSERT INTO TRANSFER (delivery_id, sent_date, receive_date, transportation_mode, supplier_id) " +

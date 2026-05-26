@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -23,12 +22,7 @@ namespace SariSari_InventorySystem
         private void LoadCategories()
         {
             ddlCategory.Items.Clear(); // Clear existing items
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                ddlCategory.Items.Add(new ListItem("Configuration missing"));
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT DISTINCT category_name FROM CATEGORY";
 
             try
@@ -123,11 +117,7 @@ namespace SariSari_InventorySystem
         private bool IsCategoryExists(string category)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                return false;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to check if the category exists in the CATEGORY table
             string query = "SELECT COUNT(*) FROM CATEGORY WHERE category_name = @Category";
@@ -180,11 +170,7 @@ namespace SariSari_InventorySystem
         private void UpdateCategoryInDatabase(string oldCategory, string newCategory)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to update category in the CATEGORY table
             string query = "UPDATE CATEGORY SET category_name = @NewCategory WHERE category_name = @OldCategory";
@@ -207,11 +193,7 @@ namespace SariSari_InventorySystem
         private void UpdateProductCategoryInDatabase(string oldCategory, string newCategory)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to update category in the PRODUCT table
             string query = "UPDATE PRODUCT SET category_name = @NewCategory WHERE category_name = @OldCategory";
@@ -234,11 +216,7 @@ namespace SariSari_InventorySystem
         private void InsertNewCategoryIntoDatabase(string newCategory)
         {
             // Connection string
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                throw new InvalidOperationException("Database configuration is missing.");
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
 
             // SQL query to insert new category into the CATEGORY table
             string query = "INSERT INTO CATEGORY (category_name) VALUES (@NewCategory)";

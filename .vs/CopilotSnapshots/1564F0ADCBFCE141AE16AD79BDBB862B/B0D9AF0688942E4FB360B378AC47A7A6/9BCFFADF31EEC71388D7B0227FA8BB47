@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -22,13 +21,7 @@ namespace SariSari_InventorySystem
         private void LoadProductIds()
         {
             ddlProductId.Items.Clear(); // Clear existing items
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                ddlProductId.Items.Clear();
-                ddlProductId.Items.Add(new ListItem("Configuration missing"));
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT product_id FROM PRODUCT";
 
             try
@@ -76,13 +69,7 @@ namespace SariSari_InventorySystem
             // Implement logic to load product details from the database based on the productId
             // Example: Fetch product details from the database and assign them to labels in the recordDetailsPanel
             // Replace the example code with your actual database retrieval logic
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                recordDetailsPanel.Visible = false;
-                Response.Write("Database configuration is missing.");
-                return;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT * FROM PRODUCT WHERE product_id = @ProductId";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -126,11 +113,7 @@ namespace SariSari_InventorySystem
 
         private bool ProductExists(int productId)
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-            if (string.IsNullOrWhiteSpace(connectionString))
-            {
-                return false;
-            }
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
             string query = "SELECT COUNT(*) FROM PRODUCT WHERE product_id = @ProductId";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -149,12 +132,7 @@ namespace SariSari_InventorySystem
         {
             if (ProductExists(productId))
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["InventoryDb"]?.ConnectionString;
-                if (string.IsNullOrWhiteSpace(connectionString))
-                {
-                    Response.Write("Database configuration is missing.");
-                    return;
-                }
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True";
                 string query = "DELETE FROM PRODUCT WHERE product_id = @ProductId";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))

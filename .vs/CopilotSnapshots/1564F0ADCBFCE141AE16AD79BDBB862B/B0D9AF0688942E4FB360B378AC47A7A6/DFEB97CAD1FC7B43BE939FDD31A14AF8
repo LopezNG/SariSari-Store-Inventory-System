@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Configuration;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -20,13 +19,8 @@ namespace SariSari_InventorySystem
             // Check if the entered credentials are correct
             string username = Request.Form["username"]; // Get the entered username from the form
             string password = Request.Form["password"]; // Get the entered password from the form
-            string configuredUsername = ConfigurationManager.AppSettings["AdminUsername"];
-            string configuredPassword = ConfigurationManager.AppSettings["AdminPassword"];
 
-            if (!string.IsNullOrWhiteSpace(configuredUsername)
-                && !string.IsNullOrWhiteSpace(configuredPassword)
-                && string.Equals(username, configuredUsername, StringComparison.Ordinal)
-                && string.Equals(password, configuredPassword, StringComparison.Ordinal))
+            if (username == "admin" && password == "123")
             {
                 // Redirect to MainPage.aspx if credentials are correct
                 Response.Redirect("Home.aspx");

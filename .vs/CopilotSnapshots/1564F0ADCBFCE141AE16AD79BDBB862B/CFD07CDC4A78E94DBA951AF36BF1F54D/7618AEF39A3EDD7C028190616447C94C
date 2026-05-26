@@ -4,13 +4,6 @@
   https://go.microsoft.com/fwlink/?LinkId=169433
   -->
 <configuration>
-  <connectionStrings>
-    <add name="InventoryDb" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Sari_SariDatabase.mdf;Integrated Security=True" providerName="System.Data.SqlClient" />
-  </connectionStrings>
-  <appSettings>
-    <add key="AdminUsername" value="admin" />
-    <add key="AdminPassword" value="123" />
-  </appSettings>
   <!--
     For a description of web.config changes see http://go.microsoft.com/fwlink/?LinkId=235367.
 
